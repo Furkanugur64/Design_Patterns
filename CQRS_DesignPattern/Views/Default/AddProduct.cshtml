@@ -1,0 +1,28 @@
+﻿@model CQRS_DesignPattern.CQRSPattern.Commands.CreateProductCommand
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <br /><br />
+    <form method="post">
+        <label>Ürün Adı</label>
+        <input type="text" class="form-control" asp-for="ProductName" />
+        <br />
+        <label>Ürün Fiyatı</label>
+        <input type="text" class="form-control" asp-for="Price" />
+        <br />
+        <label>Marka</label>
+        <input type="text" class="form-control" asp-for="Brand" />
+        <br />
+        <label>Ürün Stok Sayısı</label>
+        <input type="text" class="form-control" asp-for="Stock" />
+        <br />
+        <label>Ürün Kategorisi</label>
+        <input type="text" class="form-control" asp-for="Category" />
+        <br />
+        <button type="submit" class="btn btn-success">Kaydet</button>
+    </form> 
+</div>
