@@ -44,7 +44,7 @@ hale gelmesine yardımcı olur. CQRS ile birlikte kullanıldığında da kolayl�
 
 ### Örnek Proje
 Örnek projemizde Mediator design patternini CQRS ile birlikte kullanarak CQRS'te controller kısmında yaşanan constructor kalabalığını mediator aracılığıyla en aza indirip
-daha doğru bir kullanım gerçekleştirdik.
+daha doğru bir kullanım gerçekleştirdik. Veritabanı olarak PostgreSQL kullandık.
 
 ![](https://i.hizliresim.com/mvzpoua.png)
 ------------
